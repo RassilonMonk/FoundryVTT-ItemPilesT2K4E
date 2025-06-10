@@ -1,9 +1,9 @@
 Hooks.once("item-piles-ready", async () => {
 
-    "VERSION": "1.0.1",
 
-	const baseConfig = {
-		// These keys and setting are unlikely to ever change
+	game.itempiles.API.addSystemIntegration({
+
+	"VERSION": "1.0.1",
 
 	// The actor class type is the type of actor that will be used for the default item pile actor that is created on first item drop.
 	"ACTOR_CLASS_TYPE": "character",
@@ -37,5 +37,8 @@ Hooks.once("item-piles-ready", async () => {
 	// Currencies in item piles is a versatile system that can accept actor attributes (a number field on the actor's sheet) or items (actual items in their inventory)
 	// In the case of attributes, the path is relative to the "actor.system"
 	// In the case of items, it is recommended you export the item with `.toObject()` and strip out any module data
-	"CURRENCIES": [],
+	"CURRENCIES": []
+    });
+
+     
 });
