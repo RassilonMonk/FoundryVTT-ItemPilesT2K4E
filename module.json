@@ -1,8 +1,8 @@
 {
-  "id": "FoundryVTT-ItemPilesT2K4E",
+  "id": "item-piles-t2k4e",
   "title": "Item Piles: T2K4E",
   "description": "This module adds support for the Twilight:2000 4e system within the Item Piles module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "library": "false",
   "compatibility": {
     "minimum": "12",
@@ -13,10 +13,7 @@
     {
       "name": "RassilonMonk",
       "url": "https://github.com/RassilonMonk/",
-      "discord": "rassilonmonk",
-      "name": "Wasp",
-      "url": "https://github.com/Haxxer",
-      "discord": "Wasp#2005"
+      "discord": "rassilonmonk"
     }
   ],
   "esmodules": [
@@ -36,8 +33,8 @@
     ]
   },
   "url": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles-DND5e",
-  "manifest": "MUSTFILL",
-  "download": "https://github.com/RassilonMonk/FoundryVTT-ItemPilesT2K4E/archive/refs/heads/main.zip",
+  "manifest": "https://raw.githubusercontent.com/RassilonMonk/FoundryVTT-ItemPilesT2K4E/refs/heads/main/module.json",
+  "download": "https://github.com/RassilonMonk/FoundryVTT-ItemPilesT2K4E/releases/latest/download/module.zip",
   "readme": "https://github.com/RassilonMonk/FoundryVTT-ItemPilesT2K4E/blob/main/README.md",
   "bugs": "https://github.com/RassilonMonk/FoundryVTT-ItemPilesT2K4E/issues"
 }
