@@ -2,7 +2,7 @@
   "id": "item-piles-t2k4e",
   "title": "Item Piles: T2K4E",
   "description": "This module adds support for the Twilight:2000 4e system within the Item Piles module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "library": "false",
   "compatibility": {
     "minimum": "12",
